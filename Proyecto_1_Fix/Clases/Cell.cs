@@ -1,4 +1,4 @@
-namespace Proyecto1.Clases
+namespace Proyecto1
 {
     class Cell
     {

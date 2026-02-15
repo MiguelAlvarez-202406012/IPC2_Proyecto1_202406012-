@@ -1,0 +1,15 @@
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\bin\Debug\net10.0\Proyecto_1_Fix.exe
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\bin\Debug\net10.0\Proyecto_1_Fix.deps.json
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\bin\Debug\net10.0\Proyecto_1_Fix.runtimeconfig.json
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\bin\Debug\net10.0\Proyecto_1_Fix.dll
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\bin\Debug\net10.0\Proyecto_1_Fix.pdb
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\obj\Debug\net10.0\Proyecto_1_Fix.GeneratedMSBuildEditorConfig.editorconfig
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\obj\Debug\net10.0\Proyecto_1_Fix.AssemblyInfoInputs.cache
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\obj\Debug\net10.0\Proyecto_1_Fix.AssemblyInfo.cs
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\obj\Debug\net10.0\Proyecto_1_Fix.csproj.CoreCompileInputs.cache
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\obj\Debug\net10.0\Proyecto_1_Fix.sourcelink.json
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\obj\Debug\net10.0\Proyecto_1_Fix.dll
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\obj\Debug\net10.0\refint\Proyecto_1_Fix.dll
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\obj\Debug\net10.0\Proyecto_1_Fix.pdb
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\obj\Debug\net10.0\Proyecto_1_Fix.genruntimeconfig.cache
+D:\USAC\U_2026\IPC2\IPC2_Proyecto1_202406012\IPC2_Proyecto1_202406012-\Proyecto1_fix\Proyecto_1_Fix\obj\Debug\net10.0\ref\Proyecto_1_Fix.dll
