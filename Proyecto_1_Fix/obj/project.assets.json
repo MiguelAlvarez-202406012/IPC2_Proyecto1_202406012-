@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\USAC\\U_2026\\IPC2\\IPC2_Proyecto1_202406012\\IPC2_Proyecto1_202406012-\\Proyecto_1_Fix\\Proyecto_1_Fix.csproj",
+      "projectUniqueName": "D:\\USAC\\U_2026\\IPC2\\PROYECTOS\\IPC2_Proyecto1_202406012-\\Proyecto_1_Fix\\Proyecto_1_Fix.csproj",
       "projectName": "Proyecto_1_Fix",
-      "projectPath": "D:\\USAC\\U_2026\\IPC2\\IPC2_Proyecto1_202406012\\IPC2_Proyecto1_202406012-\\Proyecto_1_Fix\\Proyecto_1_Fix.csproj",
+      "projectPath": "D:\\USAC\\U_2026\\IPC2\\PROYECTOS\\IPC2_Proyecto1_202406012-\\Proyecto_1_Fix\\Proyecto_1_Fix.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\USAC\\U_2026\\IPC2\\IPC2_Proyecto1_202406012\\IPC2_Proyecto1_202406012-\\Proyecto_1_Fix\\obj\\",
+      "outputPath": "D:\\USAC\\U_2026\\IPC2\\PROYECTOS\\IPC2_Proyecto1_202406012-\\Proyecto_1_Fix\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
