@@ -235,6 +235,7 @@ public class ListaPatrones
                     {
                         //Si el nodoPaciente.Name se ubica en un nodo hijo que sea igual o tenga el nombre "paciente" procesara la funcion read paciente
                         ReadPacientes(nodoPaciente);
+                        Console.WriteLine("\n" + new string('-', 50) + "\n");
                     }
                     
                 } 
@@ -270,14 +271,11 @@ public class ListaPatrones
                     //Fuera de datospersonales
                     string periodos = nodoPaciente?.SelectSingleNode("periodos")?.InnerText ?? "0";
                     string matriz = nodoPaciente?.SelectSingleNode("m")?.InnerText ?? "0";
-                    int periods = -1; //numero de periodos
+                    int periods = int.Parse(periodos);
                     int m = int.Parse(matriz);
 
 
-                        if (int.TryParse(matriz,out periods))
-                        {
-                            periods = int.Parse(periodos);
-                        }
+                        
                 
 
                     /*
@@ -300,7 +298,9 @@ public class ListaPatrones
                     {
                         ListaCeldas initial = new ListaCeldas(); //estado inicial
                         //REINICIO 
-   
+                        procesarRejas(reja,m,initial);
+                        AnalizarEnfermedad(initial,m,periods,nombre);
+
 
                     
                        
@@ -501,8 +501,8 @@ public class ListaPatrones
                     if (i == 0 && j == 0)
                         continue;
 
-                    int filaVecina = fila + i; //revisa las filas vecinas
-                    int columnaVecina = columna + j; //revisa la columna vecina
+                    int filaVecina = fila + i;
+                    int columnaVecina = columna + j;
 
                     // Verificar que esté dentro de los límites de la rejilla
                     if (filaVecina >= 1 && filaVecina <= m && columnaVecina >= 1 && columnaVecina <= m)

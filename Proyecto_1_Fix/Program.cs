@@ -53,20 +53,37 @@ namespace Proyecto_1_Fix
                     break;
                     case 1: //ELEGIR PACIENTE
                     //Prueba para paciente DESDE XML 
-                        
 
-
-
-                    break;
-
+                    Console.WriteLine("TEMPORAL FIX");
+                    Console.WriteLine("ingrese LA RUTA del Archivo XML a Leer (Ingresar con extension .xml) \n ejemplo: D:\\USAC\\U_2026\\IPC2\\IPC2_Proyecto1_202406012\\IPC2_Proyecto1_202406012-\\Proyecto_1_Fix\\Entrada2.xml");
                     
+                    string? filePath = Console.ReadLine()?.Trim(); //Puede ser vacio
 
+                        while (string.IsNullOrEmpty(filePath)) 
+                        //                                           es nulo o vacio de: filePath
+                        {
+                            Console.WriteLine("Se ingreso una ruta vacia vuelva a intentarlo");
+                            filePath = Console.ReadLine();
+                            
+                        }
+
+                    //llamada a clase de lectura
+                    string realPath = Path.Combine(Directory.GetCurrentDirectory(), filePath);
+                    string debugPath = "D:\\USAC\\U_2026\\IPC2\\IPC2_Proyecto1_202406012\\IPC2_Proyecto1_202406012-\\Proyecto_1_Fix\\Entrada2.xml"; //ruta original en la PC actual
+                    
+                  
+                    LecturaXML.lecturaArchivo(realPath);
+                    break;
                     case 2://REPORTE
 
                     //REPORTE CON EL MISMO ARCHIVO PERO DETERMINANDO SI LAS CELULAS SE ENCUENTRAN INFECTADAS O NO
                     //E IMPRIMIR EL ARCHIVO CON LOS PACIENTES ANALIZADOS
+                    Console.WriteLine("TEMPORAL FIX");
+                    Console.WriteLine("ingrese LA RUTA del Archivo XML a Procesar (Ingresar con extension .xml) \n ejemplo: D:\\USAC\\U_2026\\IPC2\\IPC2_Proyecto1_202406012\\IPC2_Proyecto1_202406012-\\Proyecto_1_Fix\\Entrada2.xml");
+                    string? readFile = Console.ReadLine()?.Trim(); //Puede ser vacio
+                    string output = "D:\\USAC\\U_2026\\IPC2\\IPC2_Proyecto1_202406012\\IPC2_Proyecto1_202406012-\\Proyecto_1_Fix\\Salida.xml";
 
-
+                    Write.Print(readFile,output);
                     break;
 
                     case 3: //ELIMINAR DATA DE XML
